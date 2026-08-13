@@ -1,0 +1,49 @@
+.recentes {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.recentes__header {
+  padding-top: 4px;
+}
+
+.recentes__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-signal-amber);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0 0 2px;
+}
+
+.recentes__title {
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.recentes__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.recentes__empty {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  line-height: 1.5;
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  margin: 0;
+}
+
+.recentes__empty-hint {
+  margin: 6px 0 0;
+  font-size: 13px;
+}
